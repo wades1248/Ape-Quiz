@@ -1,0 +1,316 @@
+body{
+
+background-image: url(https://i.pinimg.com/originals/42/2a/4a/422a4a63f3a2b54ae29fbb7b40582db3.jpg);
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+color: rgb(244, 247, 250);
+
+text-shadow: 2px 1px rgb(67, 60, 80);
+
+font-family: 'Maven Pro', sans-serif;
+
+font-size: 20px;
+
+}
+
+.hidden{
+
+display: none;
+
+}
+
+h1{
+
+text-align: center;
+
+font-size: 25px;
+
+margin-bottom: 25px;
+
+background-color: rgba(128, 128, 128, 0.253);
+
+}
+
+h2{
+
+background-color: rgba(128, 128, 128, 0.253);
+
+}
+
+ul,li { list-style-type: none;
+
+list-style-position:inside;
+
+margin:0;
+
+padding:0;
+
+text-align: right;
+
+}
+
+header ul{
+
+list-style-type: none;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 10px;
+
+}
+
+header{
+
+background-color: rgba(39, 116, 32, 0.466);
+
+}
+
+main{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+.startPage{
+
+width: 80%;
+
+}
+
+.startPage > h1{
+
+margin-top: 20%;
+
+display: block;
+
+}
+
+
+.jsQuestions{
+
+margin-top: 15%;
+
+margin-left: 15px; 
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+form{
+
+display: block;
+
+border: none;
+
+
+}
+
+
+legend,label{
+
+display: block;
+
+width: 100%;
+
+background-color: rgba(128, 128, 128, 0.253); 
+
+padding: 10px;
+
+}
+
+label:hover, label:focus{
+
+background-color: rgba(39, 116, 32, 0.466);
+
+}
+
+
+button{
+
+display: block;
+
+margin-top: 20px;
+
+margin-bottom: 50px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+background-color: rgba(74, 139, 0, 0.151);
+
+border-radius: 70%;
+
+border: none;
+
+color: rgb(244, 247, 250);
+
+text-shadow: 2px 1px rgb(67, 60, 80);
+
+font-size: 40px;
+
+}
+
+input:hover, button:hover, button:focus {
+
+background-color: rgba(39, 116, 32, 0.466);
+
+cursor: pointer;
+
+}
+
+
+label{
+
+display: flex;
+
+}
+
+
+@media screen and (min-width: 321px){
+
+body{
+
+background-image: url(https://animals.sandiegozoo.org/sites/default/files/inline-images/orang_male_hand.jpg );
+
+color: aliceblue;
+
+text-shadow: 2px 1px rgb(60, 19, 99);
+
+}
+
+.jsQuestions{
+
+width: 300px;
+
+}
+
+header ul{
+
+font-size: 20px;
+
+}
+
+button{
+
+background-color: rgba(0, 0, 139, 0.151);
+
+border-radius: 70%;
+
+border: none;
+
+color: aliceblue;
+
+text-shadow: 2px 1px rgb(60, 19, 99);
+
+}
+
+label:hover, label:focus{
+
+background-color: rgba(0, 0, 139, 0.466);
+
+}
+
+button:hover, button:focus {
+
+background-color: rgba(0, 0, 139, 0.466);
+
+}
+
+
+header{
+
+background-color: rgba(0, 0, 139, 0.151);
+
+}
+
+/*legend, label{
+
+background-color: rgba(255, 255, 255, 0);
+
+}*/
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+*{
+
+font-size: 25px;
+
+}
+
+header ul{
+
+font-size: 25px;
+
+}
+
+.jsQuestions, .startPage, .answerPage{
+
+width: 500px;
+
+}
+
+h1{
+
+font-size: 50px;
+
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+*{
+
+font-size: 50px;
+
+}
+
+header ul {
+
+font-size: 50px;
+
+}
+
+.jsQuestions, .startPage, .answerPage{
+
+width: 1000px;
+
+}
+
+h1{
+
+font-size: 100px;
+
+}
+
+input{
+
+height: 50px;
+
+width: auto;
+
+}
+
+}
+
