@@ -19,7 +19,7 @@ jQuery
 
 ![results page](https://github.com/wades1248/Ape-Quiz/blob/master/Screen%20Shot%202019-09-14%20at%202.42.51%20PM.png?raw=true)
 
-Mobile View:
+### Mobile View:
 ![mobile view](https://github.com/wades1248/Ape-Quiz/blob/master/Screen%20Shot%202019-09-14%20at%202.43.34%20PM.png?raw=true)
 
 
