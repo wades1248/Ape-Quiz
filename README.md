@@ -6,9 +6,9 @@
 A quiz app about apes.
 
 ## Technologies:
-HTML5
-CSS
-jQuery
+HTML5,
+CSS,
+jQuery,
 
 ## ScreenShots:
 ![landing page](https://github.com/wades1248/Ape-Quiz/blob/master/Screen%20Shot%202019-09-14%20at%202.40.42%20PM.png?raw=true)
